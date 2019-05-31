@@ -1,0 +1,13 @@
+load_file("nrngui.hoc")
+begintemplate Manage_String
+public string
+objref this
+strdef string  
+proc init(){
+    string=$s1
+    
+    //print "I am ",this
+    
+}
+
+endtemplate Manage_String 

@@ -1,0 +1,7 @@
+objref spkr,ncon1
+spkr=new NetStim()
+spkr.interval=20
+spkr.number=40
+spkr.start=10
+spkr.noise=0
+ncon1=new NetCon(spkr,SgabaP[0].o(0),0,1,1.5e-2)
